@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Dashboard - Pengelolaan Sistem dan Jaringan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            max-width: 250px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .sidebar h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .main-content {
+            flex: 3;
+            margin-left: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main-content h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .course-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+            background-color: #f9f9f9;
+        }
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .course-card h3 {
+            font-size: 18px;
+        }
+        .course-card p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dashboard E-Learning - Pengelolaan Sistem dan Jaringan</h1>
+</header>
+
+<nav>
+    <div>
+        <a href="#">Dashboard</a>
+        <a href="#">Materi</a>
+        <a href="#">Tugas</a>
+        <a href="#">Forum</a>
+    </div>
+    <div>
+        <a href="#">Profil</a>
+        <a href="#">Keluar</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Materi</a></li>
+            <li><a href="#">Tugas</a></li>
+            <li><a href="#">Forum Diskusi</a></li>
+            <li><a href="#">Laporan Nilai</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h1>Selamat Datang!</h1>
+        <p>Ini adalah dashboard e-learning untuk mata pelajaran <strong>Pengelolaan Sistem dan Jaringan</strong>. Silakan pilih menu di sebelah kiri untuk mulai belajar.</p>
+
+        <div class="course-card">
+            <h3>Materi 1: Pengantar Sistem Jaringan</h3>
+            <p>Pelajari dasar-dasar sistem jaringan, termasuk topologi jaringan dan protokol umum.</p>
+            <a href="#">Lihat Materi</a>
+        </div>
+
+        <div class="course-card">
+            <h3>Tugas 1: Konfigurasi Jaringan</h3>
+            <p>Selesaikan tugas konfigurasi jaringan sederhana menggunakan perangkat lunak virtualisasi.</p>
+            <a href="#">Kerjakan Tugas</a>
+        </div>
+
+        <div class="course-card">
+            <h3>Forum Diskusi: Masalah Jaringan</h3>
+            <p>Diskusikan dan tanyakan masalah terkait jaringan bersama teman dan instruktur.</p>
+            <a href="#">Buka Forum</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
